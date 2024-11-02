@@ -19,9 +19,14 @@ console.log("After Conversion of z:",zValueConversion);
 
 
 let isLoggedIn = "disha"
-let booleanIsLoggedIn = Boolean(isLoggedIn)
+let booleanIsLoggedIn = Boolean(isLoggedIn);
 console.log("Boolean after Conversion:",booleanIsLoggedIn);
 
 // 1 => true; 0 => false
 // "" => false
 // "disha" => true
+
+let someNumber=33;
+let StringNumber=String(someNumber)
+console.log("Type of StringNumber:",typeof(StringNumber));
+console.log("SomeNumber to String conversion:",StringNumber)
