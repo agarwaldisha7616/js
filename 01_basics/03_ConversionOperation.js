@@ -27,6 +27,38 @@ console.log("Boolean after Conversion:",booleanIsLoggedIn);
 // "disha" => true
 
 let someNumber=33;
-let StringNumber=String(someNumber)
+let StringNumber=String(someNumber);
 console.log("Type of StringNumber:",typeof(StringNumber));
-console.log("SomeNumber to String conversion:",StringNumber)
+console.log("SomeNumber to String conversion:",StringNumber);
+
+
+
+// *********************** Operations **************************
+
+let value=3;
+let negval=-value;
+console.log("Negative Value:",negval);
+
+// console.log(2+2);    addition
+// console.log(2-2);    subtraction
+// console.log(2*2);    multiplication
+// console.log(2**3);   power
+// console.log(2/3);    division
+// console.log(2%3);    remainder
+
+
+let str1="hello";
+let str2=" World";
+let str3=str1+str2;
+console.log("String Addition:",str3);
+
+
+console.log("1"+2); 1   //12
+console.log(1+"2");     //12
+
+console.log("1"+2+2);   //122
+console.log(1+2+"2");   //32
+
+
+console.log(true);      //true  
+console.log(+true);     //1
