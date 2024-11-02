@@ -69,6 +69,9 @@ let num1,num2,num3;
 num1=num2=num3=2+2     //num1=4,num2=4,num3=4
 
 
-let gameCounter=100;
-gameCounter++;
-console.log(gameCounter);   //101
+let gameCounter1=100;
+console.log(gameCounter1++);   //100
+
+
+let gameCounter2=100;
+console.log(++gameCounter2);  //101
