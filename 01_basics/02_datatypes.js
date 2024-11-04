@@ -31,5 +31,21 @@
 
 // object
 
-console.log(typeof null)
-console.log(typeof undefined)
+// console.log(typeof null)
+// console.log(typeof undefined)
+
+
+
+
+// ------------------------------- Memory ------------------------------------
+
+// Stack(Primitive) ,Heap(Non-Primitive)
+// Copy of variable ,Reference of original Value
+
+let myname="disha";
+let anothername="simmi";
+anothername="laddu"
+
+console.log(anothername);
+console.log(myname);
+
