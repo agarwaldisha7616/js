@@ -49,3 +49,17 @@ anothername="laddu"
 console.log(anothername);
 console.log(myname);
 
+
+let userone={
+    email:"john@gmail.com",
+    upi:"user@axl"
+}
+
+let usertwo=userone;
+usertwo.email="disha@gmail.com";
+
+console.log(userone.email);
+console.log(usertwo.email);
+
+
+
